@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site do Bolo de Morango</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+</head>
+
+<body>
+    <header>
+        <a href="https://www.dndbeyond.com">
+            <img src="./src/imagens rpg/png/DnD-Emblem.png" alt="logo" class="logo">
+        </a>
+        <button id="botao-alterar-tema">
+            <img src="./src/imagens/sun.png" alt="imagem do sol" class="imagem-botao">
+        </button>
+    </header>
+    <main>
+        <ul class="listagem-classes">
+            
+            <li class="cartao-separar">
+                <div class="informacoes">
+                    <span>Raças</span>
+                </div>
+            </li>
+
+            <li class="cartao-classe
+            ">
+                <div class="informacoes">
+                    <span>Aasimar</span>
+                </div>
+
+                <div class="sub-informacoes">
+                    <span>Decendentes Celestiais</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/aasimar 4.png" alt="Aasimar" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo carisma">Carisma</li>
+                </ul>
+
+                <p class="descricao">Aasimar são seres divinos com aparência radiante, asas etéreas e habilidades curativas, representando emissários celestiais.</p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>Anão</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>Mestres da forja</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/dwarf.png" alt="Ivysaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo constituição">Constituição</li>
+                </ul>
+
+                <p class="descricao">Resistentes e habilidosos em combate, os anões possuem resistência a venenos e doenças, além de proficiência em armas e armaduras.</p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>Elfo</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>Decendentes Feéricos</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/elf.png" alt="Venusaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo destreza">Destreza</li>
+                </ul>
+
+                <p class="descricao">Ágeis e graciosos, os elfos têm visão no escuro e imunidade contra magias de sono, além de proficiência em arcos e espadas élficas.</p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>halfling</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>aventureiros bon-vivant</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/halfling.png" alt="Charmander" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo destreza">Destreza</li>
+                </ul>
+
+                <p class="descricao">Pequenos e ágeis, os halflings têm sorte extra, sendo capazes de rolar novamente 1s em jogadas de ataque, teste de habilidade ou resistência.</p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>humano</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>aventureiros conquistadores</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/human.png" alt="Charmeleon" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo tudo">Tudo</li>
+                </ul>
+
+                <p class="descricao">Versátil e adaptável, os humanos não possuem habilidades raciais específicas, mas recebem um bônus em todos os atributos.</p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>draconato</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>defensores do clã</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/dragonborn.png" alt="Charizard" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo força">Força</li>
+                </ul>
+
+                <p class="descricao">Descendentes de dragões, os draconatos possuem habilidades associadas ao tipo de dragão ao qual são ligados, como sopro elemental e resistência correspondente.</p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>gnomo</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>pequenos estudiosos</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/gnome.png" alt="Squirtle" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inteligencia">Inteligencia</li>
+                </ul>
+
+                <p class="descricao">Inteligentes e curiosos, os gnomos têm vantagem em testes de resistência contra magias e são capazes de se camuflar em ambientes naturais.
+                </p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>Meio-Elfo</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>entre dois mundos</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/half elf.png" alt="Blastoise" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo carisma">Carisma</li>
+                </ul>
+
+                <p class="descricao">Mestiços de humanos e elfos, os meio-elfos têm habilidades que combinam as características de ambas as raças, como imunidade a magias de encanto.</p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>Meio-orc</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>feroses combatentes</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/half orc.png" alt="Warturtle" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo força">Força</li>
+                </ul>
+
+                <p class="descricao">Fortes e brutais, os meio-orcs possuem resistência a dano, habilidade de ataque brutal e ganham pontos extras de vida quando são reduzidos a 0 pontos de vida.</p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>Tiefling</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>Decendentes Absais</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/Tiefling.png" alt="Caterpie" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo carisma">Carisma</li>
+                </ul>
+
+                <p class="descricao">Descendentes de humanos e demônios, os tieflings têm características infernais, como resistência a fogo, habilidades mágicas e aparência demoníaca.</p>
+            </li>
+
+            <li class="cartao-separar">
+                <div class="informacoes">
+                    <span>Classes</span>
+                </div>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>Artificer</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>Mestres da invenção</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/artificer 2.png" alt="Ivysaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo especialista">ESPECIALISTA</li>
+                </ul>
+
+                <p class="descricao">Criador e manipulador de itens mágicos, capaz de forjar armas, armaduras e construtos mágicos. </p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>Bárbaro</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>combatentes implacáveis</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/barbarian.png" alt="Venusaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo combatente">COMBATENTE</li>
+                </ul>
+
+                <p class="descricao"> Guerreiro feroz, capaz de entrar em fúria selvagem, ganhando resistência a dano e aumentando seu poder de ataque.</p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>Bardo</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>Artistas Incriveis</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/bard.png" alt="Charmander" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo especialista">ESPECIALISTA</li>
+                </ul>
+
+                <p class="descricao">Mestre da música e poesia, capaz de inspirar aliados, curar ferimentos, manipular a magia e influenciar pessoas.</p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>bruxo</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>Conjuradores de Pacto</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/warlock.png" alt="Charmeleon" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo conjurador">CONJURADOR</li>
+                </ul>
+
+                <p class="descricao">Obtém poderes mágicos através de um pacto com uma entidade extraplanar, com acesso a magias e habilidades únicas.</p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>Clérigo</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>Decendentes Celestiais</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/cleric.png" alt="Charizard" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo sacerdote">SACERDOTE</li>
+                </ul>
+
+                <p class="descricao">Servo divino, canaliza o poder de uma divindade para curar, proteger e fortalecer aliados.</p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>Druida</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>Decendentes Celestiais</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/druid.png" alt="Squirtle" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo sacerdote">SACERDOTE</li>
+                </ul>
+
+                <p class="descricao">Guardião da natureza, capaz de se transformar em animais, lançar magias elementais e moldar o ambiente.
+                </p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>Feiticeiro</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>Decendentes Celestiais</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/sorcerer.png" alt="Warturtle" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo conjurador">CONJURADOR</li>
+                </ul>
+
+                <p class="descricao">Manipulador inato da magia, com poderes mágicos inatos e flexibilidade na moldagem de magias.</p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>Guerreiro</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>Decendentes Celestiais</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/fighter.png" alt="Blastoise" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo combatente">COMBATENTE</li>
+                </ul>
+
+                <p class="descricao">Combatente especializado em todas as formas de combate, habilidoso com armas e armaduras.</p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>Ladino</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>Decendentes Celestiais</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/rogue.png" alt="Caterpie" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo especialista">ESPECIALISTA</li>
+                </ul>
+
+                <p class="descricao">Especialista em furtividade e trapaças, habilidoso em ataques sorrateiros e desarmar armadilhas.</p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>Mago</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>Decendentes Celestiais</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/mago.png" alt="Metapod" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo conjurador">CONJURADOR</li>
+                </ul>
+
+                <p class="descricao">Mestre dos estudos arcanos, capaz de lançar uma ampla variedade de magias e controlar a realidade.</p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>Monge</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>Decendentes Celestiais</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/monk.png" alt="Butterfree" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo combatente">COMBATENTE</li>
+                </ul>
+
+                <p class="descricao">Mestre das artes marciais, capaz de realizar ataques desarmados poderosos, ter alta mobilidade e desviar de ataques.</p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>Paladino</span>
+                    </div>
+                    <div class="sub-informacoes">
+                        <span>Decendentes Celestiais</span>
+                    </div>
+
+                <img src="./src/imagens rpg/png/paladin.png" alt="Weedle" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo sacerdote">SACERDOTE</li>
+                </ul>
+
+                <p class="descricao">Campeão da justiça, com habilidades divinas, capacidade de cura e proficiente em combate com armaduras pesadas.</p>
+            </li>
+
+            <li class="cartao-classe">
+                <div class="informacoes">
+                    <span>Patrulheiro</span>
+                </div>
+                <div class="sub-informacoes">
+                    <span>Decendentes Celestiais</span>
+                </div>
+
+                <img src="./src/imagens rpg/png/ranger.png" alt="Kakuna" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo especialista">ESPECIALISTA</li>
+                </ul>
+
+                <p class="descricao"> Protetor da natureza, habilidoso em rastrear, caçar e se adaptar a diferentes ambientes.</p>
+            </li>
+        
+        </ul>
+    </main>
+
+    <script src="./src/js/index.js">
+
+    </script>
+</body>
+
+</html>

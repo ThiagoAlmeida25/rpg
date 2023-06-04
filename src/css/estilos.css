@@ -1,0 +1,238 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #5e5b5bad;
+    color: #333333;
+}
+
+body.modo-escuro {
+    background-color: #212121;
+    color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+header .logo {
+    width: 70px;
+    transition: 0.2s ease-in-out;
+}
+
+header .imagem-botao {
+    width: 50px;
+    transition: 0.2s ease-in-out;
+}
+
+header #botao-alterar-tema {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+header .logo:hover,
+header .imagem-botao:hover,
+main .cartao-classe:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+header .logo:hover,
+header .imagem-botao:hover,
+main .cartao-seprar:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+main {
+    padding: 25px;
+}
+
+main .listagem-classes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .cartao-classe {
+    background-color: #d8e3ec;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+main .cartao-separar {
+    background-color: #d8e3ec;
+    width: 1200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+main .cartao-classe:hover {
+    background-color: #96d9d6;
+}
+
+.modo-escuro .cartao-classe {
+    background-color: #a8a8a8;
+}
+
+main .cartao-classe .informacoes {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+
+main .cartao-classe .informacoes span {
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+main .cartao-classe .sub-informacoes {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+
+main .cartao-classe .sub-informacoes span {
+    padding: 2px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+main .cartao-classe .gif {
+    width: 240px;
+    height: 300px;
+}
+
+main .cartao-classe .tipos {
+    display: flex;
+    gap: 15px;
+}
+
+main .cartao-classe .tipo {
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.especialista {
+    background-color: #7ac74c;
+}
+
+.carisma {
+    background-color: #7ac74c;
+}
+
+.sabedoria {
+    background-color: #df67ddfb;
+}
+
+.constituição {
+    background-color: #ee8130;
+}
+
+.combatente {
+    background-color: #ee8130;
+}
+
+.sacerdote {
+    background-color: #6390f0;
+}
+
+.destreza {
+    background-color: #6390f0;
+}
+
+.tudo {
+    background-color: #a6b91a;
+}
+
+.força{
+    background-color: #6b3fa0;
+}
+
+.inteligencia{
+    background-color: #f12626;
+}
+
+.eletrico{
+    background-color: #e6c972;
+}
+
+.conjurador{
+    background-color: #e6c972;
+}
+
+main .descricao {
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+
+main .cartao-separar:hover {
+    background-color: #c92020;
+    transform: scale(1.05)
+}
+
+.modo-escuro .cartao-separar {
+    background-color: #a8a8a8;
+}
+
+main .cartao-separar .informacoes {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #333333;
+    border-radius: 10px;
+}
+
+main .cartao-separar .informacoes span {
+    padding: 5px;
+    text-transform: uppercase;
+    font-size:30px;
+}
+
+main .cartao-separar .sub-informacoes {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+
+main .cartao-separar .sub-informacoes span {
+    padding: 2px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+main .cartao-separar .gif {
+    width: 250px;
+    height: 300px;
+}
+
+main .cartao-separar .tipos {
+    display: flex;
+    gap: 15px;
+}
+
+main .cartao-separar .tipo {
+    padding: 8px;
+    border-radius: 10px;
+}
